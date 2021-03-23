@@ -9,7 +9,7 @@
       >
         {{ alertData.title }}
         <v-spacer />
-        <v-btn @click.stop="show = false" icon>
+        <v-btn @click="show = false" icon>
           <v-icon>mdi-close</v-icon>
         </v-btn>
       </v-toolbar>
@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: "Alert",
+  name: "AlertModal",
   props: ["alertData"],
   computed: {
     show: {

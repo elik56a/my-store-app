@@ -50,7 +50,7 @@
       </v-col>
     </v-row>
 
-    <alert-modal @close="alertData.isVisible = false" :alertData="alertData" />
+    <alert-modal @close="alertData = {}" :alertData="alertData" />
   </v-container>
 </template>
 
